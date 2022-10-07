@@ -19,14 +19,11 @@ body{
 }
 
 ul{
-    list-style-type:none;
+    list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
     gap: 8px;
-    
-
-
 }
 
 a{
@@ -36,18 +33,11 @@ a{
     color: #f9faf8;
 }
 
-h1{
-    font-size: 48px;
-    font-weight: bolders;
-    color: #f9faf8;
-    margin: 0%;
-    padding: 0%;
-   
-}
+
 
 .hero-one{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 90px;
@@ -55,6 +45,20 @@ h1{
     flex-basis: 400px;
 }
 
+.hero-onecta{
+    max-width: 500px;
+}
+
+
+h1{
+    font-size: 48px;
+    font-weight: bolders;
+    color: #f9faf8;
+    margin: 0%;
+    padding: 0%;
+    
+   
+}
 .hero-image{
     width: 500px;
     height: 350px;
