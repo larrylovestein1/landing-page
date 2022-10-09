@@ -72,9 +72,9 @@ p{
 
 .hero-2{
     display: flex;
-    align-content: center;
-    justify-content: center;
-    background-color: white;
+    flex-direction: column;
+    background-color: grey;
+    
 }
 
 .header-2{
@@ -82,9 +82,24 @@ p{
     color: black;
     font-size: 36px;
     font-weight: bold;
+    justify-content: center;
 }
 
+.boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+
+}
+
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
 img{
     height: 208px;
     width: 208px;
+    
+
 }
