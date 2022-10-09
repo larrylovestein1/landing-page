@@ -76,3 +76,15 @@ p{
     justify-content: center;
     background-color: white;
 }
+
+.header-2{
+    display: flex;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+img{
+    height: 208px;
+    width: 208px;
+}
