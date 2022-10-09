@@ -122,3 +122,25 @@ img{
     
 
 }
+
+.qoute-section{
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+}
+
+.qoute{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 36px;
+    color: black;
+
+}
+
+strong{
+    display: flex;
+    justify-content: center;
+    padding-left: 40%;
+    padding: 15px;
+}
